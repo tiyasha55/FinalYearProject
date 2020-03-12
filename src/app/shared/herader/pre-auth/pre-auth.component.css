@@ -1,6 +1,7 @@
 .navbar
 {
     padding: 7px 0;
+    
 }
 
 .navbar-brand{
@@ -21,6 +22,6 @@
     background: none;
     color: #34c6d3;
 }
-.ul{
+#navbarSupportedContent{
     padding-left: 250px;
 }

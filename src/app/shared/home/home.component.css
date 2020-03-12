@@ -1,4 +1,4 @@
-
+/* 
 .Home-cover,
 .Home-Box,
 .Home-Box-Inner{
@@ -22,8 +22,13 @@
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}*/
+ 
+.carousel-inner img{
+    width: 100%;
+    height: 80%;
 }
-.title{
+ .carousel-caption{
     font-size: 250%;
     font-weight: 700;
     margin: 20px 0 20px 0;
@@ -31,7 +36,8 @@
    color: rgb(17, 70, 119);
    animation-delay: .2s;
    animation-duration: .5s;
-}
+   padding-bottom:250px;
+} 
 .btn-general{
     border-color: rgb(94, 205, 233);
     border-width: 2px;
@@ -48,7 +54,7 @@
 .btn-white:hover ,.btn-white:focus
 {
     background-color: #fff;
-    color:#41464b
+    
 
 }
 .btn{
