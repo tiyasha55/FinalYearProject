@@ -1,0 +1,26 @@
+.navbar
+{
+    padding: 7px 0;
+}
+
+.navbar-brand{
+    padding: 0 85px;
+}
+
+.navbar-expand-lg{
+    background: rgba(0,0,0,0.7);
+}
+.navbar-nav > li > a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+    background: none;
+    color: #34c6d3;
+}
+.ul{
+    padding-left: 250px;
+}
