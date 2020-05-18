@@ -1,32 +1,58 @@
-<div class="contanier pt_profile">
-    <form >
-        <div class="row">
-            <div class="col-md-4">
-                <div class="profile-img">
-                    <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" alt=""/>
-                    <div class="file btn btn-lg btn-primary">
-                        Change Photo
-                        <input type="file" name="file"/>
-                    </div>
+<div class="container">
+    <div class="profile-picture">
+        <img src="" alt="">
+        <button class="btn btn-dark">Change Photo</button>
+        <input type="file">
+    </div>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="fname">First Name</label>
+                  <input type="text" class="form-control" id="fname" placeholder="First name">
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input-group form-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-user"></i></span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Username">
-                    
+                <div class="col">
+                    <label for="lname">Last Name</label>
+                  <input type="text" class="form-control" id="lname" placeholder="Last name">
                 </div>
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-lg btn-general btn-white">Edit Profile</button>
-            </div>
-        </div>
-    </form>
-</div> 
-<!-- <div class="text-center">
-    <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
-    <h6>Upload a different photo...</h6>
-    <input type="file" class="text-center center-block file-upload">
-  </div> -->
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gender1" value="option1">
+                      <label class="form-check-label" for="gender1">
+                        Female
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gender2" value="option2">
+                      <label class="form-check-label" for="gender2">
+                       Male
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gender3" value="option3">
+                      <label class="form-check-label" for="gender3">
+                       Others
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="phnum">Phone Number</label>
+                <input type="text" id="phnum" class="form-control" >
+              </div>
+              <button class="btn btn-light btn-lg">SAVE</button>
+        </form>
+</div>

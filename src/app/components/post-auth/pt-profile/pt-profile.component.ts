@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PtProfileComponent implements OnInit {
 
+  picturePath:string
+  
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  onSubmit(){
+    console.log(this.picturePath)
+  }
 }

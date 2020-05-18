@@ -26,13 +26,14 @@
     
     .card-header h3{
     color:#34c6d3;
+    text-align: center;
     }
     
-    .social_icon{
+    /* .social_icon{
     position: absolute;
     right: 20px;
     top: -45px;
-    }
+    } */
     
     .input-group-prepend span{
     width: 50px;

@@ -12,7 +12,8 @@ import { PtLoginComponent } from './components/pre-auth/patient/pt-login/pt-logi
 import { PtProfileComponent } from './components/post-auth/pt-profile/pt-profile.component';
 import { DocProfileComponent } from './components/post-auth/doc-profile/doc-profile.component';
 import { OrgProfileComponent } from './components/post-auth/org-profile/org-profile.component';
-import { PtRegComponent } from './components/pre-auth/patient/pt-reg/pt-reg.component'
+import { PtRegComponent } from './components/pre-auth/patient/pt-reg/pt-reg.component';
+import { DocListComponent } from './components/post-auth/doc-list/doc-list.component'
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PtRegComponent } from './components/pre-auth/patient/pt-reg/pt-reg.comp
     PtProfileComponent,
     DocProfileComponent,
     OrgProfileComponent,
-    PtRegComponent
+    PtRegComponent,
+    DocListComponent
    
   ],
   imports: [

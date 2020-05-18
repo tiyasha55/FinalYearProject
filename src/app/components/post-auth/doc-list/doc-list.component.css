@@ -1,0 +1,21 @@
+/* p{
+    padding: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background: #dbdfe5;
+}
+.img{
+    
+} */
+.bs-example{
+    margin: 10px;        
+}
+img{
+    height:120px ;
+    width: 120px;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  border: 3px solid rgb(101, 165, 238);
+}
