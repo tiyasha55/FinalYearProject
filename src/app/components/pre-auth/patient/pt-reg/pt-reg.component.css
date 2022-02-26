@@ -1,53 +1,43 @@
 
-.container{
+/* .container{
     height: 100%;
     align-content: center;
-    /* background-image: url('../../../../../assets/image/home/description/healthy_food1.jpg'); */
-    }
     
-    .card{
+    
+    } */
+    
+    /* .card{
     height: 400px;
     margin-top: auto;
     margin-bottom: auto;
     width: 400px;
     background-color: rgba(247, 243, 243, 0) ;
     } 
-    
-    .social_icon span{
+       .social_icon span{
     font-size: 60px;
     margin-left: 10px;
     color: #34c6d3;
     }
-    
-    .social_icon span:hover{
+        .social_icon span:hover{
     color: #34c6d3;
     cursor: pointer;
-    }
-    
-    .card-header h3{
+    }   .card-header h3{
     color: #34c6d3;
+    text-align: center;
     }
     
     .social_icon{
     position: absolute;
     right: 20px;
     top: -45px;
-    }
-    
-    .input-group-prepend span{
-    width: 50px;
-    background-color: #34c6d3;
-    color: black;
-    border:0 !important;
-    }
-    
-    /* input:focus{
+    } */
+        /* input:focus{
     outline: 0 0 0 0  !important;
     box-shadow: 0 0 0 0 !important;
     
     } */
     
-    .accept{
+    /* .accept{
     color: #34c6d3;
     }
     
@@ -73,7 +63,7 @@
         border-width: 2px;
         border-radius: 1.5;
         /* padding:12px 26px 12px 26px ; */
-        font-size: 16px;
+        /* font-size: 16px;
         font-weight:400 ;
         
     }
@@ -84,4 +74,62 @@
     
     .links a{
     margin-left: 4px;
+    /* }  */
+    .page_name{
+    
+      color: #ffff;
+      font-family: Montserrat;
+      text-align: center;  
+     }
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #34c6d3;
+    color: black;
+    border:0 !important;
     }
+    .reg_btn{
+      color: black;
+      background-color: #34c6d3;
+      width: 350px;
+      }
+
+     .bg_img{
+    position: relative;
+    } 
+
+    .bg_img img{
+      height: 100%;
+      width: 100%;
+    }
+    .reg_page{
+      position: absolute;
+      top: 100px;
+      left: 250px;
+      z-index: 5;
+      margin: 0px auto;
+      width: 350px;
+}
+.login_page{
+  margin-bottom: 40px;
+}
+.chck_box_p {
+  margin-bottom: 0px;
+  margin-left: 10px;
+  color: #a2a2a2;
+}
+.icon_pos{
+  padding-left: 15px;
+}
+.accept{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.form-group{
+  margin-top: 40px;
+} 
+.link{
+
+  display: flex;
+  justify-content: space-between;
+}

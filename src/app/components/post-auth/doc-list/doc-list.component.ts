@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PipeTransform, Pipe  } from '@angular/core';
 
 @Component({
   selector: 'app-doc-list',

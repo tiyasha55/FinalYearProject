@@ -4,10 +4,16 @@
     
 }
 
-.navbar-brand{
-    padding: 0 85px;
+.logo{
+    margin-left: 150px;
+    height: 60px;
+    width: 60px;
 }
-
+.logo img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
 .navbar-expand-lg{
     background: rgba(0,0,0,0.7);
 }

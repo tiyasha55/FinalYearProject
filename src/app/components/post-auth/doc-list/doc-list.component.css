@@ -11,9 +11,13 @@
 .bs-example{
     margin: 10px;        
 }
+.doctor_block{
+    width: 250px;
+    height: 290px;
+}
 img{
-    height:120px ;
-    width: 120px;
+    height:100px ;
+    width: 100px;
     margin-left: auto;
   margin-right: auto;
   margin-top: 6px;

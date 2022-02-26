@@ -10,6 +10,7 @@ import {DocListComponent} from './components/post-auth/doc-list/doc-list.compone
 
 
 
+
 const routes: Routes = [
   {path :'',component:HomeComponent},
    { path :'pt_login',component:PtLoginComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
  {path:'pt_profile',component:PtProfileComponent},
  {path:'org_profile',component:OrgProfileComponent},
  {path: 'doc-profile',component:DocProfileComponent},
- {path: 'doc-list',component:DocListComponent}
+ {path: 'doc-list',component:DocListComponent},
 ];
 
 @NgModule({
